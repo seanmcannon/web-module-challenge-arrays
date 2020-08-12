@@ -38,13 +38,13 @@ var originalFlavors = [
   To save you from having to count the items above, you can assume that length of originalFlavors is 31. You may also want to test your function by creating and passing an array of a different length, to make sure it returns FALSE if length is not 31. 
   i.e. is31Flavors(originalFlavors) will return TRUE.*/
 
-// function flavorCheck(originalFlavors) {
-//   let total = originalFlavors.length;
-//   if (total === 31);
-//   {
-//     return true;
-//   }
-// }
+function flavorCheck(originalFlavors) {
+  let total = originalFlavors.length;
+  if (total === 31);
+  {
+    return true;
+  }
+}
 
 /* Task 2: Corporate has come to you with an idea for a new flavor: Rainbow Sherbert! They think this will be a game changer. You need to modify the array to include this flavor. 
   Your function should accept:
@@ -104,8 +104,7 @@ function removeFlavorByName(arr, name) {
 
 function copy(arr2, arr) {
   arr2 = arr.slice();
-  console.log(arr);
-  return arr2;
+  console.log(arr, arr2);
 }
 
 /* Task 7: July 7th is "World Chocolate Day" and Baskin Robins wants to create promotional materials highlighting all of their chocolate flavors. Write a function that checks every item in the array for a given string and returns a new array called filteredArray with just these values. Rather than hardcoding "chocolate" into your function, pass a string as a parameter, and invoke with the argument "chocolate". This way you could also filter for "Vanilla", "Sherbert", etc. when those holidays roll around.
@@ -117,15 +116,14 @@ function copy(arr2, arr) {
   DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem.
   hint - you can use the .includes method to help you solve this */
 
-function filterByWord( , ) {
-  
-
-
-
-
-
-
-  
+function filterByWord(arr, string) {
+  let newArr = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].includes(string)) {
+      newArr.push(arr[i]);
+    }
+  }
+  console.log(newArr);
 }
 
 /* 🧁🍦🍨 STRETCH 🍨🍦🍫*/
@@ -224,6 +222,6 @@ var regionalFlavors = [
   "Caramel 'n' Cookies",
 ];
 
-function getRandomFlavors(/*code here*/) {
+function getRandomFlavors(arrOne, arrTwo, arrThree, arrFour) {
   /*code here*/
 }
