@@ -223,5 +223,16 @@ var regionalFlavors = [
 ];
 
 function getRandomFlavors(arrOne, arrTwo, arrThree, arrFour) {
-  /*code here*/
+  let finalArr = [];
+  let mergedArr = arrOne.concat(arrTwo, arrThree, arrFour);
+  for (let i = 0; i < 31; i++) {
+    let randomFlavors = mergedArr[Math.floor(Math.random() * mergedArr.length)];
+    finalArr.push(randomFlavors);
+  }
+  return finalArr;
 }
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i].includes(string)) {
+//     newArr.push(arr[i]);
+//   }
