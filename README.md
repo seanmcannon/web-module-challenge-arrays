@@ -1,4 +1,4 @@
-## Advanced C S and Intro to JavaScript
+## Advanced CSgit checkout S and Intro to JavaScript
 
 ## Arrays
 
