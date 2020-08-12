@@ -1,4 +1,4 @@
-## Advanced CSS and Intro to JavaScript
+## Advanced C S and Intro to JavaScript
 
 ## Arrays
 
@@ -29,8 +29,8 @@ Your challenge today will be to work with their array of ice cream flavors to ac
 Find the file `index.js` and complete the tasks until your returns look like the expected returns. Do not use any of the forbidden methods!
 
 ### Task 2b: Exit Ticket
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/38ztAXr6mzpDqSfXn/BGqHXsWCL8s6oB).
 
+Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/38ztAXr6mzpDqSfXn/BGqHXsWCL8s6oB).
 
 The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
 
@@ -54,6 +54,6 @@ Make sure you are invoking your function after defining and wrapping a console.l
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request.**
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request.**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete by merging the branch back into master
